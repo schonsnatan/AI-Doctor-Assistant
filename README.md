@@ -89,3 +89,12 @@ GROQ_API_KEY=your_groq_api_key_here
 
 This project is a **proof of concept** for educational and prototyping purposes only.  
 It is **not intended for real medical use**. Always consult licensed medical professionals for diagnosis or treatment.
+
+## ✅ Conclusion
+
+Building Clinical Guard AI was a deep dive into the realities of building trustworthy AI. It combines LLMs, vector databases, deterministic logic, and strong software design, all with the goal of delivering intelligence with accountability.
+
+Thank you for reading!
+
+- Check out the Medium article: [Medium Article](https://medium.com/@natanschons/building-clinical-guard-ai-a-safer-way-to-prescribe-with-rag-llms-and-programmatic-filters-e5b9c6b603d7)
+- Let’s connect on LinkedIn: [LinkedIn](linkedin.com/in/natanschons)
