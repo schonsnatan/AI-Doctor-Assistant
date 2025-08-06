@@ -3,7 +3,7 @@
 An AI-powered clinical assistant built with **Streamlit**, **LLaMA 3 (via Groq)**, and **vector search (RAG)**.  
 This app simulates a medical assistant that suggests **medications** and **exams** based on patient data — while respecting allergies and past reactions.
 
-
+![Alt Text](doctor-assistant.gif)
 
 ## 🚀 Features
 
