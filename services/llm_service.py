@@ -12,7 +12,7 @@ class LLMService:
 
     def generate_medicine_query(self, patient_data: dict):
         first_response = self.client.chat.completions.create(
-        model="llama3-70b-8192",
+        model="openai/gpt-oss-120b",
         messages=[
                 {
                 "role": "system",
@@ -60,7 +60,7 @@ class LLMService:
         )
 
         final_response = self.client.chat.completions.create(
-            model="llama3-70b-8192",
+            model="llama-3.1-8b-instant",
             messages=[
                 {
                     "role": "system",
@@ -81,7 +81,7 @@ class LLMService:
 
     def generate_exam_suggestion(self, patient_data: dict):
         final_response = self.client.chat.completions.create(
-            model="llama3-70b-8192",
+            model="llama-3.1-8b-instant",
             messages=[
                 {
                     "role": "system",
