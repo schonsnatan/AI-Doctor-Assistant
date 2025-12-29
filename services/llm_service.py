@@ -50,7 +50,7 @@ class LLMService:
 
         docs_text = "\n---\n".join([doc.page_content for doc in docs])
 
-        # 🧠 Etapa 3: Faz nova pergunta à LLM, agora com contexto do RAG
+        #Faz nova pergunta à LLM, agora com contexto do RAG
         final_prompt = (
             f"{patient_data}\n"
             f"Análise clínica inicial da IA:\n{initial_analysis}\n\n"
@@ -76,7 +76,7 @@ class LLMService:
             ]
         )
 
-        print("🔬 Documentos retornados pelo RAG:\n", docs_text)  # Para debug opcional
+        print("Documentos retornados pelo RAG:\n", docs_text)
         return final_response.choices[0].message.content
 
     def generate_exam_suggestion(self, patient_data: dict):
