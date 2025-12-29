@@ -1,11 +1,11 @@
-# 🤖 Doctor Assistant AI
+# Doctor Assistant AI
 
 An AI-powered clinical assistant built with **Streamlit**, **LLaMA 3 (via Groq)**, and **vector search (RAG)**.  
 This app simulates a medical assistant that suggests **medications** and **exams** based on patient data — while respecting allergies and past reactions.
 
 ![Alt Text](doctor-assistant.gif)
 
-## 🚀 Features
+## Features
 
 - 🔎 Intelligent suggestions of medications and lab exams
 - ✅ Allergy and adverse reaction filtering logic
@@ -16,7 +16,7 @@ This app simulates a medical assistant that suggests **medications** and **exams
 
 
 
-## 🧠 How it Works
+## How it Works
 
 1. **User inputs** patient data through a simple and clean Streamlit interface.
 2. The app sends the data to an **LLM hosted on Groq**, which generates medical search terms (e.g., drug classes, active ingredients).
@@ -26,7 +26,7 @@ This app simulates a medical assistant that suggests **medications** and **exams
 
 
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 doctor_assistant/
@@ -46,15 +46,15 @@ doctor_assistant/
 
 
 
-## 📸 UI Preview
+## UI Preview
 
 <img width="1266" height="568" alt="image" src="https://github.com/user-attachments/assets/526514c9-1770-4a52-976e-ef6a83a490e7" />
 
-## 🧠 AI Response
+## AI Response
 
 <img width="1232" height="587" alt="image" src="https://github.com/user-attachments/assets/1e2ddfb7-0ce8-4a9e-a4f4-abce6d46e78a" />
 
-## 🚀 Setup (using Poetry)
+## Setup (using Poetry)
 
 1. **Clone the repository**:
    ```bash
@@ -73,7 +73,7 @@ doctor_assistant/
    poetry shell
    ```
 
-4. ✅ Make sure to set up your .env file with your GROQ API key
+4. Make sure to set up your .env file with your GROQ API key
 
 ```python
 GROQ_API_KEY=your_groq_api_key_here
@@ -85,12 +85,12 @@ GROQ_API_KEY=your_groq_api_key_here
    streamlit run app.py
    ```  
 
-## 🤝 Disclaimer
+## Disclaimer
 
 This project is a **proof of concept** for educational and prototyping purposes only.  
 It is **not intended for real medical use**. Always consult licensed medical professionals for diagnosis or treatment.
 
-## ✅ Conclusion
+## Conclusion
 
 Building Clinical Guard AI was a deep dive into the realities of building trustworthy AI. It combines LLMs, vector databases, deterministic logic, and strong software design, all with the goal of delivering intelligence with accountability.
 
